@@ -48,3 +48,18 @@ base_86[sapply(base_86, is.numeric)] <- lapply(base_86[sapply(base_86, is.numeri
 
 ### Variable Inicial: elec_pres_1
 table(base_86$sexo)
+
+### Variable Inicial:Región 
+table(base_86$region)
+
+### Variable 2: Identificación Religiosa
+table(base_86$religion_2)
+
+### Variable 3: Práctica Religiosa
+table(base_86$religion_82)
+
+### Variable 4: Confianza Iglesia Evangélica 
+table(base_86$confianza_6_b)
+
+### Variable 5: Confianza en el Gobierno
+table(base_86$confianza_6_i)
